@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEKA Gas - Estufas a Gas</title>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>TEKA Gas</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido -->
+    <main>
+        <section id="inicio">
+            <h2>Bienvenido a TEKA Gas</h2>
+            <p>Descubre nuestras estufas a gas diseñadas para brindarte confort y eficiencia.</p>
+            <a href="#productos" class="btn">Ver productos</a>
+        </section>
+
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="producto">
+                <img src="estufa.jpeg" alt="Estufa TEKA Gas 1">
+                <h3>Estufa Modelo A</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus turpis et neque feugiat, sit amet commodo elit interdum.</p>
+            </div>
+            <div class="producto">
+                <img src="estufa2.jpeg" alt="Estufa TEKA Gas 2">
+                <h3>Estufa Modelo B</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempus turpis et neque feugiat, sit amet commodo elit interdum.</p>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta? ¡Contáctanos!</p>
+            <form action="enviar.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TEKA Gas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
